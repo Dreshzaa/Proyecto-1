@@ -1,0 +1,68 @@
+/*
+| ----------------------- | -------------- | ------------------------------------------- |
+| 🩷 **Fucsia principal** | `#C9005B`      | Botones, títulos destacados, secciones      |
+| 🌸 **Rosa fuerte**      | `#D41467`      | Fondo de la sección "Somos tu aliado"       |
+| 🌷 **Rosa claro**       | `#FAD9DC`      | Fondos suaves, footer                       |
+| 🌸 **Rosa muy claro**   | `#FFF1F3`      | Fondo principal del sitio                   |
+| ⚪ **Blanco**            | `#FFFFFF`      | Tarjetas, navbar, contenido                 |
+| ⚫ **Negro**             | `#050505`      | Texto y modo alto contraste                 |
+| 🔵 **Azul/cian**        | `#35BDEB`      | Líneas, indicadores y elementos secundarios |
+| 🟡 **Amarillo**         | `#FFD43B`      | Accesibilidad / LSC                         |
+| 🩷 **Rosa suave**       | `#F3A6B8`      | Elementos decorativos y estados secundarios |
+| 🟢 **Verde**            | `#35B98A`      | Indicadores de disponibilidad/aliados       |
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color:#FFF1F3 ;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2% 2%;
+    margin: 0 auto;
+    background-color: #FAD9DC;
+    
+}
+
+
+.logo-container{
+    flex: 1;
+    .logo{
+        width: 30%;
+    }
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  list-style: none;
+  gap: 60px 50px;
+
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.menu ul li a:hover{
+    color:#F3A6B8 ;
+}
+
