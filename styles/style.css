@@ -31,17 +31,21 @@ font-family: "Oswald", sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.2% 2%;
+    padding: 0.2rem 2rem;
     margin: 0 auto;
     background-color: #FAD9DC;
     border-bottom: 4px solid #F3A6B8;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 
 
 .logo-container{
     flex: 1;
     .logo{
-        width: 30%;
+        width: 150px;
     }
 }
 
@@ -50,7 +54,6 @@ font-family: "Oswald", sans-serif;
   justify-content: center; /* centra horizontalmente */
   list-style: none;
   gap: 60px 50px;
-
 }
 
 .menu ul li a {
@@ -83,7 +86,7 @@ font-family: "Oswald", sans-serif;
 
 .texto-principal h2 {
     font-size: 12px;
-    font-weight: 25px;
+    font-weight: 25;
     color: #C9005B ;
 }
 
@@ -116,3 +119,22 @@ font-family: "Oswald", sans-serif;
     list-style:none;
 }
 
+main{
+    padding-bottom: 30px;
+}
+
+#servicios{
+    overflow: hidden;
+}
+
+footer{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FAD9DC;
+    border-top: 4px solid #F3A6B8;
+    height: 40px;
+    padding: 1rem 2rem;
+}
