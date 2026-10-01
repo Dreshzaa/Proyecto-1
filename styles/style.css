@@ -34,7 +34,7 @@ font-family: "Oswald", sans-serif;
     padding: 0.2% 2%;
     margin: 0 auto;
     background-color: #FAD9DC;
-    
+    border-bottom: 4px solid #F3A6B8;
 }
 
 
@@ -64,5 +64,55 @@ font-family: "Oswald", sans-serif;
 
 .menu ul li a:hover{
     color:#F3A6B8 ;
+}
+
+.prin{
+    background-image:radial-gradient(circle,#FAD9DC  55%, #ffffff7c 100%);
+    background-position: center center;
+    text-align: left;
+    overflow: hidden;
+    padding: 150px;
+}
+
+.texto-principal{
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+    
+}
+
+.texto-principal h2 {
+    font-size: 12px;
+    font-weight: 25px;
+    color: #C9005B ;
+}
+
+.titulo-prin {
+    font-size: 85px;
+    line-height: 1.1;
+}
+
+.titulo-prin .palabras-color {
+    color: #C9005B ;
+}
+
+.texto-principal p {
+    width: 70%;
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 27px;
+    line-height: 1.4;
+    font-weight: 400;
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom:8px solid ;
+    border-image: linear-gradient(to right, #35BDEB, #F3A6B8, #fff, #F3A6B8, #35BDEB)1;
+
+}
+
+.btns-hero{
+    display: inline-block;
+    list-style:none;
 }
 
